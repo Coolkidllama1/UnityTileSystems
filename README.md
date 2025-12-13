@@ -1,5 +1,10 @@
 # UnityTileSystems
 i made a few tilesystems and i am offering them up for free. none of them come with stuff to spawn on it, but i will provide the functions to spawn something onto it. 
+Unity version used: 6.000.3.0f1
+Dependencies: 
+the project must be a URP (Universal Render Pipeline) (started it as a 3d URP and added the 2D package)
+Must have new input system enabled
+Must have TextMeshPro (TMP) (the package files should have them)
 
 # First 2D Version:
 This is the initial one i thought of before i made improvements to the design for my needs. I made this version again in case this will suit your needs. I am excluding the mistakes i made that made debugging impossible (like not adding a RowManager on each row)
@@ -495,3 +500,38 @@ the SpawnManager has a great example of how to use it and how to not use the fir
 I have a custom scale set for the one prefab i made for this to make sure the scale is still correct. it sets the scale to something else when you spawn it. hold ctrl and click on SpawnAPrefab. you should do it for both versions. comment out my scale adjustment to see what it does without it and then go see the prefab and look at what the scale is. out of playtime i created an image as a child of a tile and i set its source image to something unity had called "knob". i then tried setting the scale to (0.5, 0.5, 0) but it wasnt a perfect circle. i changed it to (0.5, 0.7, 0) and it was great.
 
 the spawn functions return a GameObject to help you debug what happens to the spawned object (how else will you grab it? naming a certain way in the spawn function and finding the object by name? too much work)
+
+# Second 2D Version:
+I have one big black image and white lines to make it look like seperate tiles.
+the system is pretty much the same. 
+the Tiles (empties with the Tile script attached to them) arent also images (because there is only one black image)
+<details>
+<summary>Heirarchy</summary>
+
+```
+Main Camera
+    Canvas
+        BackgroundImage
+            Verticals
+                vertical lines
+            Horizontals
+                Horizontal lines
+        TileHolder
+            A
+                1
+                2
+                3
+                4
+                5
+                6
+            B (same for the rest)
+            C
+            D
+    EventSystem
+```
+
+Spacing of vertical lines: 15
+Spacing of horizontal lines: 25 (kinda)
+
+</details>
+
