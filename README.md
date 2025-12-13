@@ -1,9 +1,14 @@
 # UnityTileSystems
 i made a few tilesystems and i am offering them up for free. none of them come with stuff to spawn on it, but i will provide the functions to spawn something onto it. 
+
 Unity version used: 6.000.3.0f1
+
 Dependencies: 
+
 the project must be a URP (Universal Render Pipeline) (started it as a 3d URP and added the 2D package)
+
 Must have new input system enabled
+
 Must have TextMeshPro (TMP) (the package files should have them)
 
 # First 2D Version:
