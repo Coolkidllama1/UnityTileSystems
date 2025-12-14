@@ -540,3 +540,6 @@ Spacing of horizontal lines: 25 (kinda)
 
 </details>
 
+# 3D Version
+
+literally the same system as version 2.
