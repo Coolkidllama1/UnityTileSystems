@@ -543,3 +543,57 @@ Spacing of horizontal lines: 25 (kinda)
 # 3D Version
 
 literally the same system as version 2.
+although im able to use simple exact numbers for this one to make the positions look perfect.
+
+for my 3d version i also have a 4x4 version of it
+both of them also download a folder of materials i put together too.
+
+the package for the 6x4 version has a bonus script because i had a funny idea with IENumerator.
+
+<details>
+<summary>4x4 version info</summary>
+
+for a row the positions are:
+```C#
+1 - (-4.5, 0, 0)
+2 - (-1.5, 0, 0)
+3 - (1.5, 0, 0)
+4 - (4.5, 0, 0)
+
+THEY ARE THE CHILD OF AN EMPTY WITH THE ROW NAME
+```
+
+the positions of the rows:
+```C#
+A - (0, 0.5, 3)
+B - (0, 0.5, 1)
+C - (0, 0.5, -1)
+D - (0, 0.5, -3)
+```
+
+</details>
+
+<details>
+<summary>6x4 version info</summary>
+
+for a row the positions are:
+```C#
+1 - (-7.5, 0, 0)
+2 - (-4.5, 0, 0)
+3 - (-1.5, 0, 0)
+4 - (1.5, 0, 0)
+5 - (4.5, 0, 0)
+6 - (7.5, 0, 0)
+
+THEY ARE THE CHILD OF AN EMPTY WITH THE ROW NAME
+```
+
+the positions of the rows:
+```C#
+A - (0, 0.5, 3)
+B - (0, 0.5, 1)
+C - (0, 0.5, -1)
+D - (0, 0.5, -3)
+```
+
+</details>
